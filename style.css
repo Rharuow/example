@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  min-height: 100%;
+  position: relative;
+}
+ul {
+  list-style-type: none;
+  display: table;
+}
+a {
+  text-decoration: none;
+}
+.main1 {
+  padding: 20px 10px 5px 10px;
+  margin-bottom: 70px;
+}
+.main1, nav {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+nav a:hover {
+  background-color: white;
+}
+#bar_nav ul {
+  padding: 0px;
+  margin: 0px 10px 0px 10px;
+  float: right;
+}
+#bar_nav ul il{
+  display: inline;
+}
+#bar_nav ul il {
+  padding: 2px 10px;
+  margin: 0px 10px 0px 10px;
+  display: inline-block;
+}
+div #imagem{
+  float: left;
+  list-style-type: none;
+}
+header a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+header li a img{
+  width: 30px;
+}
+header img{
+  margin: 4px 8px 0px 8px;
+  width: 150px;
+  z-index: 2;
+}
+header nav li{
+  float: left;
+}
+#imagem {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+header li {
+  font-size: 20px; 
+  font-family: 'Mountains of Christmas', cursive;
+}
+.background {
+  background-image: url(./img/cursos-online-1.jpg);
+  height: 1024px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.card{
+  float: left;
+  padding: 8px 16px;
+  width: 33.33%;
+}
+.card-1{
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card-1 img {
+  width: 100%;
+}
+.card-2{
+  padding: 16px;
+}
+.card_line::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.title {
+ font-size: 38px;
+}
+@media screen and (max-width: 980px) {
+  .btn_1, .btn_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .coluna-um {
+    float: none;
+  }
+}
+@media screen and (max-width: 665px) {
+  .card {
+    width: 100%;
+  }
+  header nav li{
+    float: none;
+  }
+}
+
+/* CSS extra p pagina de home */
+.b_home {
+  background-image: url(./img/ead-1.jpg);
+  height: 1024px;
+  max-width: 1140px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  background-position: center;
+}
+.pa {
+  display: block;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 5%;
+  margin-right: 60%;
+  position: relative;
+  float: left;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  background-color: rgba(255, 255, 255, 0.349);
+  padding: 3%;
+  -webkit-backdrop-filter: blur(10px);backdrop-filter: blur(10px);
+  width: 90%;
+  max-width: 900px;
+  line-height: 25px;
+}
+.btn_1 {
+  border-radius: 5px;
+  background-color: orangered;
+  color: white;
+  padding: 16px;
+  position: relative;
+  float: left;
+  margin-left: 7%;
+  margin-top: 1%;
+}
+.btn_2 {
+  border-radius: 5px;
+  background-color: cyan;
+  color: orangered;
+  padding: 16px;
+  position: relative;
+  float: left;
+  margin-right: 61%;
+  margin-top: 1%;
+  margin-left: 9%;
+}
+#divsub {
+  padding: 0px;
+  margin: 10px;
+  
+}
+#divmain {
+  position: relative;
+  float: right;
+}
+
+/* CSS extra p pagina de login */
+
+.conteiner {
+  background-color: #ecf0f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+.conteudo {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 80%;
+  height: 50%;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.conteudo::before {
+  content: "";
+  position: absolute;
+  background-color: gray;
+  width: 35%;
+  height: 100%;
+}
+.conteudo-um {
+  display: flex;
+  position: relative;
+}
+.coluna-um {
+  flex: 1 0 auto;
+  z-index: 10;
+}
+.coluna-um-um {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.coluna-um-dois {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+#recuperacao {
+  align-items: right;
+}
+.coluna-dois {
+  flex: 2 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social-media {
+}
+.list-social-media li{
+  display: inline-block;
+  margin: 5px;
+  align-items: ;
+}
+.social-media img{
+  width: 30px;
+  float: right;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form input{
+  border: none;
+  height: 25px;
+  background-color: lightgray;
+  margin: 4px;
+}
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.btn {
+  cursor: pointer;
+}
+.btn img {
+  width: 30px;
+}
