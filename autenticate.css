@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  background-color: lightgray;
+  height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.login {
+  height: 50%;
+  background-color: gray;
+  flex-grow: 1;
+}
+
+.signup {
+  height: 50%;
+  background-color: white;
+  flex-grow: 2;
+}
